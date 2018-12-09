@@ -1,0 +1,33 @@
+{
+  MTDare:  [
+      {
+        "name": "Aniisa Bihi",
+        "post": "Projektledare",
+        "image": "https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/23799921_1636147236406340_2593976054825458813_o.jpg?oh=1772b39cfdee933ca76aa43aeb36fbd6&oe=5B434977",
+        "number": "073-9824481",
+        "mail": "aniisa.bihi@medieteknikdagarna.se",
+      },
+      {
+        "name": "Ronja Faltin",
+        "post": "Företagskontakt",
+        "image": "https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/23668993_10210908547890150_1326666725190331904_o.jpg?oh=cb999ba06f5b018c07e31b1c3a018c19&oe=5B436FAF",
+        "number": "073-6164307",
+        "mail": "ronja.faltin@medieteknikdagarna.se",
+      },
+      {
+        "name": "Adam Morén",
+        "post": "Press och media",
+        "image": "https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/23800017_10210498984938947_8179999890808550170_o.jpg?oh=74a3351aac4a20297116d4350b11e13b&oe=5B390DCE",
+        "number": "073-5692056",
+        "mail": "adam.moren@medieteknikdagarna.se",
+      },
+      {
+        "name": "Amanda Tydén",
+        "post": "Mässansvarig",
+        "image": "https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/23668743_10215033651303168_3584949790675896474_o.jpg?oh=99df6581c6a6a4c971667cd2ea2eb282&oe=5B40C902",
+        "number": "073-3395385",
+        "mail": "amanda.tyden@medieteknikdagarna.se",
+      },
+    ]
+
+}
