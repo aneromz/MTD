@@ -85,7 +85,8 @@ export default class UtstallareScreen extends Component {
 
   }
 
-  getUtstallareAsync = () => fetch('https://emmwel.github.io/utstallare.json')
+  //getUtstallareAsync = () => fetch('https://emmwel.github.io/utstallare.json')
+  getUtstallareAsync = () => fetch('https://aneromz.github.io/utstallare.json')
    .then((response) => response.json())
    .then((responseJson) => {
      //let utstallareDS = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
