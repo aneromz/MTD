@@ -32,7 +32,7 @@ export default class StartScreen extends Component {
 
     }
 
-    getEventsAsync = () => fetch('https://emmwel.github.io/events.json')
+    getEventsAsync = () => fetch('https://aneromz.github.io/events.json')
      .then((response) => response.json())
      .then((responseJson) => {
        this.setState({

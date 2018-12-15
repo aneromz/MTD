@@ -75,7 +75,7 @@ export default class SchemaScreen extends Component {
   }
 
   // Get all events remotely
-  getSchemaAsync = () => fetch('https://emmwel.github.io/schema.json')
+  getSchemaAsync = () => fetch('https://aneromz.github.io/schema.json')
    .then((response) => response.json()) // Parse json
    .then((responseJson) => {
      this.setState({
