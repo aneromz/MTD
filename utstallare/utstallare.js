@@ -69,7 +69,6 @@ export default class UtstallareScreen extends Component {
               }
             }
 
-
           });
           this.setState({
             favorites: allKeys,
@@ -158,7 +157,6 @@ export default class UtstallareScreen extends Component {
         />
       );
   };
-
 
     render () {
       var {height, width} = Dimensions.get('window');
