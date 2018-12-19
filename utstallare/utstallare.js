@@ -20,6 +20,7 @@ import { Dropdown } from 'react-native-material-dropdown';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import StarRating from 'react-native-star-rating';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+//import MaterialIcons from 'react-native-vector-icons/MaterialIcons'; //nytt
 
 //stylesheet
 import utStyles from './utstallareStyle.js';

@@ -2,6 +2,8 @@ import React from 'react';
 import { AppRegistry } from 'react-native';
 import { TabNavigator, TabBarBottom, StackNavigator } from 'react-navigation';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
+
 
 // Import main views
 import StartScreen from './start/start.js';
@@ -86,13 +88,13 @@ const RootTabs = TabNavigator(
         if (routeName === 'Start') {
           iconName = `home`;
         } else if (routeName === 'Om') {
-          iconName = `info`;
+          iconName = `mail`;
         } else if (routeName === 'Utstallare') {
-          iconName = `assignment-ind`;
+          iconName = `group`;
         } else if (routeName === 'Schema') {
           iconName = `date-range`;
         } else if (routeName === 'Favoriter') {
-          iconName = `star`;
+          iconName = `favorite`;
         }
         // Return the tab with the correct icon
         return <MaterialIcons name={iconName} size={25} color={tintColor} />;
