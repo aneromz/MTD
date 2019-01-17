@@ -94,7 +94,7 @@ const RootTabs = TabNavigator(
         } else if (routeName === 'Schema') {
           iconName = `date-range`;
         } else if (routeName === 'Favoriter') {
-          iconName = `favorite`;
+          iconName = `star`;
         }
         // Return the tab with the correct icon
         return <MaterialIcons name={iconName} size={25} color={tintColor} />;
