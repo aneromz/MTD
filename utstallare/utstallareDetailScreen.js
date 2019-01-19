@@ -243,7 +243,7 @@ export default class UtstallareDetailScreen extends Component {
                 style={{
                   flex: 1
                 }}
-                source={require('Test1/img/sectionB2.png')}
+                source={require('Test1/img/sectionB3.png')}
             >
             <View style={{flexDirection: 'row'}}>
               <Text style={{fontSize: 20,

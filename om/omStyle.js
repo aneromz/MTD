@@ -9,8 +9,9 @@ const omStyles = StyleSheet.create ({
     paddingLeft: 0,
   },
   infoStyle: {
-    fontSize: 12,
-    fontFamily: 'OpenSans-Light'
+    fontSize: 14,
+    fontFamily: 'OpenSans-Light', // Byte av font?
+    textAlign: 'center'
   },
   kontaktPerson : {
     fontSize: 14,

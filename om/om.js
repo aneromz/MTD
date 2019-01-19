@@ -31,8 +31,8 @@ export default class OmScreen extends Component {
      return (
          <View
            style={{
-             height: 1,
-             backgroundColor: "#CED0CE",
+             height: 4, // Mellanrum mellan kontaktpersonerna
+             backgroundColor: "black", // Färger mellan kontaktpersonernas
            }}
          />
        );
@@ -43,16 +43,16 @@ export default class OmScreen extends Component {
           <View style= {omStyles.omEntireView}>
             <Image
               source={img_header}
-              style={{flex: 0.2, alignSelf: 'center', width: "80%", height: "10%"}}
+              style={{flex: 0.5, alignSelf: 'center', width: "80%", height: "10%", padding: 2}} // Style for header
               resizeMode="contain"
             />
-            <View style={{padding: 5}}>
+            <View style={{padding: 12, paddingTop: 5}}>
               <Text style={omStyles.infoStyle}>
-                Medieteknikdagarna är ett ideellt arrangemang drivet av och för studenter. 2019 går dagarna av stapeln för nittonde gången.
+                Medieteknikdagarna är ett ideellt arrangemang drivet av och för studenter. 2019 går mäsaan av stapeln för nittonde gången.
                 Syftet är att knyta kontakter mellan studenter, medietekniker ute i arbetslivet och företagen inom branschen!
               </Text>
             </View>
-              <View style={omStyles.omEntireView}>
+            <View style={omStyles.omEntireView}>
               <SectionList
                 style={{alignSelf: 'stretch'}}
                 stickySectionHeadersEnabled={true}
@@ -64,7 +64,7 @@ export default class OmScreen extends Component {
                 ]}
                 keyExtractor={item => item.name}
               />
-              </View>
+            </View>
           </View>
       );
     }
