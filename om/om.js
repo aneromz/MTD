@@ -48,12 +48,12 @@ export default class OmScreen extends Component {
             />
             <View style={{padding: 12, paddingTop: 5}}>
               <Text style={omStyles.infoStyle}>
-                Medieteknikdagarna är ett ideellt arrangemang drivet av och för studenter. 2019 går mäsaan av stapeln för nittonde gången.
+                Medieteknikdagarna är ett ideellt arrangemang drivet av och för studenter. 2019 går mässan av stapeln för nittonde gången.
                 Syftet är att knyta kontakter mellan studenter, medietekniker ute i arbetslivet och företagen inom branschen!
               </Text>
             </View>
             <View style={omStyles.omEntireView}>
-              <SectionList
+              <SectionList // We want to disable scroll
                 style={{alignSelf: 'stretch'}}
                 stickySectionHeadersEnabled={true}
                 renderItem={({item}) => <OmRow itemOm={item} />}
