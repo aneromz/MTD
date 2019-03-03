@@ -29,10 +29,10 @@ const StartStack = StackNavigator(
 
 const OmStack = StackNavigator(
   {
-    Om: { screen: OmScreen }
+    Info: { screen: OmScreen }
   },
   {
-    initialRouteName: 'Om',
+    initialRouteName: 'Info',
   }
 );
 
@@ -72,7 +72,7 @@ const RootTabs = TabNavigator(
   {
     // Set the tabs to the main screens (now StackNavigators)
     Start: { screen: StartStack },
-    Om: { screen: OmStack },
+    Info: { screen: OmStack },
     Utstallare: { screen: UtstallareStack },
     Schema: { screen: SchemaStack },
     Favoriter: { screen: FavoritStack },
@@ -87,8 +87,8 @@ const RootTabs = TabNavigator(
         // Check which tab routeName equals
         if (routeName === 'Start') {
           iconName = `home`;
-        } else if (routeName === 'Om') {
-          iconName = `mail`;
+        } else if (routeName === 'Info') {
+          iconName = `info`;
         } else if (routeName === 'Utstallare') {
           iconName = `group`;
         } else if (routeName === 'Schema') {

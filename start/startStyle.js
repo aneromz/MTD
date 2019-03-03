@@ -16,7 +16,7 @@ const startStyles = StyleSheet.create ({
   },
   startEntireView: {
     flex:1,
-    backgroundColor: '#E0E0E0'
+    backgroundColor: 'white'
   },
   startView: {
     flex: 1,

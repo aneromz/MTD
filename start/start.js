@@ -53,6 +53,7 @@ export default class StartScreen extends Component {
        var dateNow = new Date();
        var upcoming = [];
 
+       //Visa 3 i taget
        while(countUpcoming < 3 && countObjects < this.state.events.events.length) {
          var d = new Date(this.state.events.events[countObjects].start);
          if (d.getTime() > dateNow.getTime()) {
@@ -81,8 +82,8 @@ export default class StartScreen extends Component {
       return (
           <View
             style={{
-              height: 1,
-              backgroundColor: "#CED0CE",
+              height: 4,
+              backgroundColor: "black",
             }}
           />
         );
@@ -116,7 +117,7 @@ export default class StartScreen extends Component {
                 renderSectionHeader={({section}) => <SectionStartHeader title={section.title} /> }
                 ItemSeparatorComponent={this.renderSeparator}
                 sections={[ // homogeneous rendering between sections
-                  {data: this.state.upcomingEvents, title: 'Kommande'}
+                  {data: this.state.upcomingEvents, title: 'Next up'}
                 ]}
                 keyExtractor={item => item.title}
               />

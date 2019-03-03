@@ -152,8 +152,8 @@ export default class UtstallareScreen extends Component {
     return (
         <View
           style={{
-            height: 1,
-            backgroundColor: "#CED0CE",
+            height: 4,
+            backgroundColor: "black",
           }}
         />
       );
@@ -212,7 +212,7 @@ export default class UtstallareScreen extends Component {
                 renderSectionHeader={({section}) => <SectionHeader title={section.title} />}
                 ItemSeparatorComponent={this.renderSeparator}
                 sections={[ // homogeneous rendering between sections
-                  {data: this.state.utstallare.samarbetspartners, title: 'Samarbetspartners'},
+                  {data: this.state.utstallare.samarbetspartners, title: 'Företag'},
                   {data: this.state.utstallare.both, title: 'Utställare - Båda dagarna'}
                 ]}
                 keyExtractor={item => item.name}
@@ -248,7 +248,7 @@ export default class UtstallareScreen extends Component {
                 renderSectionHeader={({section}) => <SectionHeader title={section.title} />}
                 ItemSeparatorComponent={this.renderSeparator}
                 sections={[ // homogeneous rendering between sections
-                  {data: this.state.utstallare.samarbetspartners, title: 'Samarbetspartners'},
+                  {data: this.state.utstallare.samarbetspartners, title: 'Företag'},
                   {data: this.state.utstallare.onsdag, title: 'Endast onsdag'},
                   {data: this.state.utstallare.both, title: 'Utställare - Båda dagarna'}
                 ]}
@@ -286,7 +286,7 @@ export default class UtstallareScreen extends Component {
                 renderSectionHeader={({section}) => <SectionHeader title={section.title} /> }
                 ItemSeparatorComponent={this.renderSeparator}
                 sections={[ // homogeneous rendering between sections
-                  {data: this.state.utstallare.samarbetspartners, title: 'Samarbetspartners'},
+                  {data: this.state.utstallare.samarbetspartners, title: 'Företag'},
                   {data: this.state.utstallare.torsdag, title: 'Endast torsdag'},
                   {data: this.state.utstallare.both, title: 'Utställare - Båda dagarna'}
                 ]}
@@ -324,7 +324,7 @@ export default class UtstallareScreen extends Component {
                 renderSectionHeader={({section}) => <SectionHeader title={section.title} /> }
                 ItemSeparatorComponent={this.renderSeparator}
                 sections={[ // homogeneous rendering between sections
-                  {data: this.state.utstallare.samarbetspartners, title: 'Samarbetspartners'},
+                  {data: this.state.utstallare.samarbetspartners, title: 'Företag'},
                   {data: this.state.utstallare.both, title: 'Utställare - Båda dagarna'}
                 ]}
                 keyExtractor={item => item.name}
