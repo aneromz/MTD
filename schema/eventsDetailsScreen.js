@@ -163,10 +163,17 @@ export default class EventsDetailScreen extends Component {
     const anEvent = params ? params.anEvent : null;
 
     return(
-      <View style={{flex:1, backgroundColor: 'white', paddingTop: '5%'}}>
+      <ScrollView
+        refreshControl={
+          <RefreshControl
+            refreshing={this.state.isFavoritesLoading}
+            onRefresh={() => this.onRefresh()}
+          />
+        }
+      >
           <Image
             source={{uri: anEvent.image}}
-            style={{flex: 0.4, alignSelf: 'center', width:'90%', height: '10%', marginBottom: '1%'}}
+            style={{height:200, alignSelf: 'center'}}
             resizeMode="contain"
           />
           <View style={{flexDirection: 'row'}}>
@@ -185,20 +192,12 @@ export default class EventsDetailScreen extends Component {
             </ImageBackground>
 
           </View>
-          <ScrollView
-            refreshControl={
-              <RefreshControl
-                refreshing={this.state.isFavoritesLoading}
-                onRefresh={() => this.onRefresh()}
-              />
-            }
-          >
-            <View style={{flex: 0.6, padding: '1%'}}>
+            <View style={{padding: '1%'}}>
               <View style={{flexDirection: 'row'}}>
                 <View>
                   <View style={{flexDirection: 'row'}}>
                     <Text style={{fontSize: 14,
-                    fontFamily: 'OpenSans-Bold', paddingTop: "1%"}}>
+                    fontFamily: 'Lato-Bold', paddingTop: "1%"}}>
                         Arrangör
                     </Text>
                     <Text style={{fontSize: 14,
@@ -208,17 +207,17 @@ export default class EventsDetailScreen extends Component {
                   </View>
                   <View style={{flexDirection: 'row'}}>
                     <Text style={{fontSize: 14,
-                    fontFamily: 'OpenSans-Bold', paddingTop: "1%"}}>
+                    fontFamily: 'Lato-Bold', paddingTop: "1%"}}>
                         Tid
                     </Text>
                     <Text style={{fontSize: 14,
-                    fontFamily: 'OpenSans-Light', paddingTop: "1%"}}>
+                    fontFamily: 'Lato-Light', paddingTop: "1%"}}>
                          : {anEvent.time}
                     </Text>
                   </View>
                   <View style={{flexDirection: 'row'}}>
                     <Text style={{fontSize: 14,
-                    fontFamily: 'OpenSans-Bold', paddingTop: "1%"}}>
+                    fontFamily: 'Lato-Bold', paddingTop: "1%"}}>
                         Plats
                     </Text>
                     <Text style={{fontSize: 14,
@@ -240,7 +239,7 @@ export default class EventsDetailScreen extends Component {
                 selectedStar={(rating) => this.onFavoritePress(rating, anEvent)}
               />
               <Text style={{fontSize: 14,
-              fontFamily: 'OpenSans-Bold', paddingTop: "1%"}}>
+              fontFamily: 'Lato-Bold', paddingTop: "1%"}}>
                 Information:
               </Text>
               <Text style={{fontSize: 14,
@@ -248,8 +247,8 @@ export default class EventsDetailScreen extends Component {
                 {anEvent.info}
               </Text>
             </View>
-          </ScrollView>
-      </View>
+
+      </ScrollView>
 
     );
   }

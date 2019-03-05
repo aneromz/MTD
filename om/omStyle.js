@@ -68,8 +68,8 @@ const omStyles = StyleSheet.create ({
     fontFamily: 'OpenSans-Light'
   },
   omImage: {
-    height: 50,
-    width: 50,
+    height: 80,
+    width: 80,
     resizeMode: 'contain'
   },
 });
