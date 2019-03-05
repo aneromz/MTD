@@ -31,8 +31,8 @@ export default class OmScreen extends Component {
      return (
          <View
            style={{
-             height: 4, // Mellanrum mellan kontaktpersonerna
-             backgroundColor: "black", // Färger mellan kontaktpersonernas
+             height: 3, // Mellanrum mellan kontaktpersonerna
+             backgroundColor: "gray", // Färger mellan kontaktpersonernas
            }}
          />
        );
