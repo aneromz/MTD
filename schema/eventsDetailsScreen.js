@@ -180,7 +180,8 @@ export default class EventsDetailScreen extends Component {
                 style={{
                   flex: 1
                 }}
-                source={require('Test1/img/sectionB3.png')}
+                source={require('../img/sectionB3.png')}
+                resizeMode="cover"
             >
             <View style={{flexDirection: 'row'}}>
               <Text style={{fontSize: 20,
