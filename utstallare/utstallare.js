@@ -153,7 +153,7 @@ export default class UtstallareScreen extends Component {
         <View
           style={{
             height: 2,
-            backgroundColor: "black",
+            backgroundColor: "gray",
           }}
         />
       );
@@ -201,7 +201,6 @@ export default class UtstallareScreen extends Component {
                     //  source={{uri: 'https://emmwel.github.io/Mass_skiss.png'}}
                       source={require('Test1/img/utstallare/Massskiss.png')}
                       style={{flex: 1, width: width, height: height/3}}
-                      resizeMode="contain"
                     />
                 }
                 onRefresh={() => this.onRefresh()}
@@ -237,7 +236,6 @@ export default class UtstallareScreen extends Component {
                       //source={{uri: 'https://emmwel.github.io/Mass_skiss.png'}}
                       source={require('Test1/img/utstallare/Massskiss.png')}
                       style={{flex: 1, width: width, height: height/3}}
-                      resizeMode="contain"
                     />
                 }
                 onRefresh={() => this.onRefresh()}
@@ -275,7 +273,6 @@ export default class UtstallareScreen extends Component {
                       //source={{uri: 'https://emmwel.github.io/Mass_skiss.png'}}
                       source={require('Test1/img/utstallare/Massskiss.png')}
                       style={{flex: 1, width: width, height: height/3}}
-                      resizeMode="contain"
                     />
                 }
                 onRefresh={() => this.onRefresh()}
@@ -313,7 +310,6 @@ export default class UtstallareScreen extends Component {
                       //source={{uri: 'https://emmwel.github.io/Mass_skiss.png'}}
                       source={require('Test1/img/utstallare/Massskiss.png')}
                       style={{flex: 1, width: width, height: height/3}}
-                      resizeMode="contain"
                     />
                 }
                 onRefresh={() => this.onRefresh()}
