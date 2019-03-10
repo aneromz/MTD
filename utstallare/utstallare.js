@@ -198,8 +198,8 @@ export default class UtstallareScreen extends Component {
               <SectionList
                 ListHeaderComponent= {
                     <Image
-                    source={{uri: 'https://aneromz.github.io/Mass_skiss.png'}}
-                    //  source={require('Test1/img/utstallare/Massskiss.png')}
+                      source={{uri: 'https://aneromz.github.io/Mass_skiss.png'}}
+                      //source={require('Test1/img/utstallare/Massskiss.png')}
                       style={{flex: 1, width: width, height: height/3}}
                     />
                 }
@@ -233,8 +233,8 @@ export default class UtstallareScreen extends Component {
               <SectionList
                 ListHeaderComponent= {
                     <Image
-                      //source={{uri: 'https://emmwel.github.io/Mass_skiss.png'}}
-                      source={require('Test1/img/utstallare/Massskiss.png')}
+                      source={{uri: 'https://aneromz.github.io/Mass_skiss.png'}}
+                      //source={require('Test1/img/utstallare/Massskiss.png')}
                       style={{flex: 1, width: width, height: height/3}}
                     />
                 }
@@ -270,8 +270,8 @@ export default class UtstallareScreen extends Component {
               <SectionList
                 ListHeaderComponent= {
                     <Image
-                      //source={{uri: 'https://emmwel.github.io/Mass_skiss.png'}}
-                      source={require('Test1/img/utstallare/Massskiss.png')}
+                      source={{uri: 'https://aneromz.github.io/Mass_skiss.png'}}
+                      //source={require('Test1/img/utstallare/Massskiss.png')}
                       style={{flex: 1, width: width, height: height/3}}
                     />
                 }
@@ -307,8 +307,8 @@ export default class UtstallareScreen extends Component {
               <SectionList
                 ListHeaderComponent= {
                     <Image
-                      //source={{uri: 'https://emmwel.github.io/Mass_skiss.png'}}
-                      source={require('Test1/img/utstallare/Massskiss.png')}
+                      source={{uri: 'https://aneromz.github.io/Mass_skiss.png'}}
+                      //source={require('Test1/img/utstallare/Massskiss.png')}
                       style={{flex: 1, width: width, height: height/3}}
                     />
                 }
