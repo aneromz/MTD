@@ -174,6 +174,7 @@ export default class EventsDetailScreen extends Component {
           <Image
             source={{uri: anEvent.image}}
             style={{height:200}}
+            resizeMode="cover"
           />
           <View style={{flexDirection: 'row'}}>
             <ImageBackground
