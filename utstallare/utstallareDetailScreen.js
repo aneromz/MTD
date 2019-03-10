@@ -234,7 +234,7 @@ export default class UtstallareDetailScreen extends Component {
 
           <Image
             source={{uri: utstallare.image}}
-            style={{flex: 0.4, alignSelf: 'center', width:'90%', height: '10%', marginBottom: '1%'}}
+            style={{flex: 1.4, alignSelf: 'center', width:'90%', height: '10%', marginBottom: '1%'}}
             resizeMode="contain"
           />
 
