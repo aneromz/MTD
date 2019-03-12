@@ -132,7 +132,7 @@ export default class FavoritScreen extends Component {
        <View
          style={{
            height: 2,
-           backgroundColor: "black",
+           backgroundColor: "grey",
          }}
        />
      );

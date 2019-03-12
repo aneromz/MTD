@@ -83,7 +83,7 @@ export default class StartScreen extends Component {
           <View
             style={{
               height: 2,
-              backgroundColor: "black",
+              backgroundColor: "grey",
             }}
           />
         );

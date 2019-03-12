@@ -103,7 +103,7 @@ export default class SchemaScreen extends Component {
         <View
           style={{
             height: 2,
-            backgroundColor: "black",
+            backgroundColor: "gray",
           }}
         />
       );
