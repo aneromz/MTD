@@ -227,6 +227,7 @@ export default class UtstallareDetailScreen extends Component {
 
     const { params } = this.props.navigation.state;
     const utstallare = params ? params.utstallare : null;
+    var img = require('../img/sectionB4.png');
 
     return(
 
@@ -243,7 +244,7 @@ export default class UtstallareDetailScreen extends Component {
                 style={{
                   flex: 1
                 }}
-                source={require('Test1/img/sectionB3.png')}
+                source={img}
             >
             <View style={{flexDirection: 'row'}}>
               <Text style={{fontSize: 20,

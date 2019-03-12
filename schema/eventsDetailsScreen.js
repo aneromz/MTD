@@ -170,6 +170,7 @@ export default class EventsDetailScreen extends Component {
             onRefresh={() => this.onRefresh()}
           />
         }
+        contentContainerStyle = {{backgroundColor: '#fff'}}
       >
           <Image
             source={{uri: anEvent.image}}
@@ -181,13 +182,13 @@ export default class EventsDetailScreen extends Component {
                 style={{
                   flex: 1
                 }}
-                source={require('../img/sectionB3.png')}
+                source={require('../img/sectionB4.png')}
                 resizeMode="cover"
             >
             <View style={{flexDirection: 'row'}}>
               <Text style={{fontSize: 20,
               fontFamily: 'OpenSans-Bold', padding: '1%', color: 'white'}}>
-                {anEvent.title}
+                {anEvent.title }
               </Text>
             </View>
             </ImageBackground>
